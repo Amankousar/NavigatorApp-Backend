@@ -6,7 +6,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     description: DataTypes.STRING,
     logo_url: DataTypes.STRING,
-    app_url: DataTypes.STRING,  
+    apps_url: DataTypes.STRING
   }, {
     tableName: 'apps',
     timestamps: false
